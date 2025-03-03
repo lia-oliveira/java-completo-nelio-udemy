@@ -1,6 +1,6 @@
-package application;
+package main.java.application;
 
-import domain.Person;
+import main.java.domain.Person;
 
 public class Application {
 
