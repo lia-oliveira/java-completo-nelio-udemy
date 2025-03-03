@@ -18,7 +18,7 @@ public class Person implements Serializable{
 	@Column(name="id_person")
 	private Integer id;
 	private String name;
-	private String email;
+	private String email;	
 	
 	public Person() {
 	}

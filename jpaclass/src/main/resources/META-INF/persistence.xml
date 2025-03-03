@@ -6,13 +6,14 @@
              version="2.2">
 
 
-<persistence-unit name="exemplo-jpa" transaction-type="RESOURCE_LOCAL">
+<persistence-unit name="exemplojpa" transaction-type="RESOURCE_LOCAL">
+<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 	<properties>
 		<property name="javax.persistence.jdbc.url"
 		value="jdbc:mysql://localhost:3306/jpaclass?useSSL=FALSE&amp;serverTimezone=UTC" />
-		<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+		<property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 		<property name="javax.persistence.jdbc.user" value="udemy" />
-		<property name="javax.persistence.jdbc.password" value="" />
+		<property name="javax.persistence.jdbc.password" value="123456" />
 		<property name="hibernate.hbm2ddl.auto" value="update" />
 		<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
 	</properties>
