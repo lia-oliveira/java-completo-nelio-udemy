@@ -130,7 +130,7 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
-
+.settings
 
 ### Eclipse ###
 .metadata
@@ -197,5 +197,8 @@ local.properties
 ### Eclipse Patch ###
 # Spring Boot Tooling
 .sts4-cache/
+
+.classpath
+.project
 
 # End of https://www.toptal.com/developers/gitignore/api/java,eclipse,visualstudiocode
