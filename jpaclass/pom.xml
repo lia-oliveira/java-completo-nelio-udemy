@@ -6,7 +6,8 @@
   <properties>
 	  <maven.compiler.source>21</maven.compiler.source>
 	  <maven.compiler.target>21</maven.compiler.target>
-  </properties>
+	  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>  
   <dependencies>
   	<dependency>
 	    <groupId>org.hibernate</groupId>
@@ -20,7 +21,6 @@
 	    <version>9.2.0</version>
 	</dependency>	 
   </dependencies>
-
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
